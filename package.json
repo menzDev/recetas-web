@@ -1,0 +1,15 @@
+{
+  "name": "recetas-web-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev --open",
+    "start": "astro dev --open",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^3.5.3"
+  }
+}
