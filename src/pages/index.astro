@@ -1,74 +1,31 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
+import "../styles/global.css";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<div class="main-texto">
-			<div>
-				<h1>Classic Cheesecake Recipe</h1>
-				<p>
-					Look no further for a creamy and ultra smooth classic cheesecake
-					recipe! Paired <br> with a buttery graham cracker crust, no one can
-					deny its simple decadence. For <br> the best results, bake in a water
-					bath.
-				</p>
-			</div>
+  <main>
+    <section class="main-texto">
+
+        <h1>Classic Cheesecake Recipe</h1>
+        <p>
+          Look no further for a creamy and ultra smooth classic cheesecake
+          recipe! Paired <br /> with a buttery graham cracker crust, no one can
+          deny its simple decadence. For <br /> the best results, bake in a
+          water bath.
+        </p>
+
+    </section>
+    <section class="imagen"><img src="./public/photo1.png" alt="" /></section>
+    <section class="ingredientes">
+      <div class="ingredientes-contenedor">
+		<div class="titulo-ingrediente">
+		  <h1>INGREDIENTS</h1>
+		  <p>Graham Cracker Crust</p>
 		</div>
-		<div class="imagen"> <img src="./public/photo1.png" alt=""></div>
-		<div class="ingredientes">
-			<div class="titulo-ingrediente"><h1>INGREDIENTS</h1>
-			<p>Graham Cracker Crust</p>
-		</div>
-			<div class="lista-ingredientes"></div>
-		</div>
-	</main>
+		<article class="lista-ingredientes"></article>
+	  </div>
+	  <aside>gdfgdgdfg</aside>
+    </section>
+  </main>
 </Layout>
-
-<style>
-.main{
-max-width: 900px;
-}
-.main-texto {
-margin: 0 auto;
-width: 62%;
-}
-.main-texto h1{
-width: 587px;
-font-family: Playfair Display;
-font-size: 48px;
-font-weight: 700;
-line-height: 64px;
-letter-spacing: 0em;
-text-align: left;
-margin: 0;
-
-}
-.main-texto p{
-	width: 592px;
-	height: 51px;
-	font-family: Montserrat;
-font-size: 14px;
-font-style: italic;
-font-weight: 500;
-line-height: 17px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-.imagen{
-	max-width: 969px;
-	margin: 0 auto; 
-}
-.imagen img{
-	width: 900px;       /* Aprovecha el ancho completo del contenedor */
-  height: auto;      /* Mantiene la proporción de la imagen */
-  border-radius: 14px;
-}	
-.ingredientes{
-	text-align: left;
-	margin: 0;
-}
-
-</style>
