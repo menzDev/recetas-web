@@ -64,7 +64,7 @@ aside {
 
 ul {
     list-style-type: none;
-    padding-left: 0;
+    padding: 0;
 }
 
 h3 {
@@ -115,103 +115,13 @@ h2 {
     line-height: normal;
 }
 
-.instrucciones {
-    display: flex;
+.cuadrado-dos {
+    display: -webkit-box;
 }
 
-.cuadrado-uno h2 {
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
-    border: 1px solid var(--Gray-3, Orange);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    margin-top: 18px;
-    padding: 0;
-    background-color: orange;
-    text-align: center;
-    color: #FFF;
-}
 .cuadrado-dos h2 {
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
-    border: 1px solid var(--Gray-3, Orange);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    margin-top: 18px;
-    padding: 0;
-    background-color: orange;
-    text-align: center;
-    color: #FFF;
-}
-.cuadrado-tres h2 {
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
-    border: 1px solid var(--Gray-3, Orange);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    margin-top: 18px;
-    padding: 0;
-    background-color: orange;
-    text-align: center;
-    color: #FFF;
-}
-.cuadrado-cuatro h2 {
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
-    border: 1px solid var(--Gray-3, Orange);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    margin-top: 18px;
-    padding: 0;
-    background-color: orange;
-    text-align: center;
-    color: #FFF;
-}
-.cuadrado-cinco h2 {
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
-    border: 1px solid var(--Gray-3, Orange);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    margin-top: 18px;
-    padding: 0;
-    background-color: orange;
-    text-align: center;
-    color: #FFF;
-}
-.cuadrado-seis h2 {
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
-    border: 1px solid var(--Gray-3, Orange);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    margin-top: 18px;
-    padding: 0;
-    background-color: orange;
-    text-align: center;
-    color: #FFF;
-}
-.cuadrado-siete h2 {
-    width: 60px;
-    height: 60px;
+    width: 36px !important;
+    height: 36px;
     border-radius: 4px;
     border: 1px solid var(--Gray-3, Orange);
     display: flex;
@@ -225,22 +135,8 @@ h2 {
     color: #FFF;
 }
 
-.cuadrado-uno  p {
-    width: 60px;
-    height: 60px;
-    border-radius: 4px;
-    border: 1px solid var(--Gray-3, Orange);
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    margin-top: 18px;
-    padding: 0;
-    background-color: orange;
-    text-align: center;
-    color: #FFF;
-}
-.cuadrado-dos p{
+
+.cuadrado-dos p {
     margin-left: 20px;
     color: var(--Gray-1, #333);
     font-family: Montserrat;
@@ -251,63 +147,3 @@ h2 {
     /* 156.25% */
     align-items: center;
 }
-.cuadrado-tres  p {
-    margin-left: 20px;
-    color: var(--Gray-1, #333);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 156.25% */
-    align-items: center;
-}
-.cuadrado-cuatro  p {
-    margin-left: 20px;
-    color: var(--Gray-1, #333);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 156.25% */
-    align-items: center;
-}
-.cuadrado-cinco  p {
-    margin-left: 20px;
-    color: var(--Gray-1, #333);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 156.25% */
-    align-items: center;;
-}
-.cuadrado-seis  p {
-    margin-left: 20px;
-    color: var(--Gray-1, #333);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 156.25% */
-    align-items: center;
-}
-.cuadrado-siete p  {
-    margin-left: 20px;
-    color: var(--Gray-1, #333);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    /* 156.25% */
-    align-items: center;
-}
-
-
-
-
-
