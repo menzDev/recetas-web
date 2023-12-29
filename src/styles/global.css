@@ -61,6 +61,9 @@ section.ingredientes {
 ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h3 {
@@ -85,7 +88,7 @@ p {
 }
 
 .cuadrado-seccion {
-    width: 21px;
+    width: 23px;
     height: 21px;
     border-radius: 4px;
     border: 1px solid var(--Gray-3, #828282);
@@ -145,7 +148,7 @@ h2 {
 }
 
 aside {
-    width: 216px;
+    width: 145px;
     height: 367px;
     border-radius: 12px;
     background: #FFF;
@@ -155,8 +158,8 @@ aside {
 }
 
 .porsion {
-    padding-left: 35px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .porsion img {
@@ -185,9 +188,9 @@ aside {
 }
 
 .tiempo {
-    padding-left: 35px;
-    display: -webkit-box;
+    display: flex;
     padding-top: 25px;
+    justify-content: space-evenly;
 }
 
 .tiempo img {
@@ -213,6 +216,21 @@ aside {
     display: flex;
     color: Gray 1;
 }
+input[type="checkbox"] {
+    width: 27Px;
+    height: 27px;
+    margin-bottom: 8px;
+    margin-left: 0;
+}
+.check {
+    display: flex;
+    align-items: start;
+}
+label {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
 @media (max-width: 768px) {
 
     main {
@@ -230,9 +248,7 @@ aside {
         order: -1;
     }
 
-    li.toques-ingr {
-        display: flex;
-    }
+  
 
     h3 {
         margin-left: 7px;
@@ -256,9 +272,26 @@ aside {
     .porsion {
         display: flex;
     }
-
+    ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
     .porsion img {
         margin-right: 5px;
     }
+    article.lista-ingredientes ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    label{
+        width: 95%;
+    }
+ 
 
   }
